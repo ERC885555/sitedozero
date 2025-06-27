@@ -27,7 +27,9 @@ class LoginForms(forms.Form):
 
 
 class CadastroForms(forms.Form):
+    
     '''Formulário de cadastro'''
+    
     username = forms.CharField(
         label='Nome de Cadastro',
         required=True,
